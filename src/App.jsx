@@ -8,7 +8,6 @@ import Page3 from './components/Page3'
 import Page4 from './components/Page4'
 import { useState } from 'react'
 
-import postcssPluginWarning from 'tailwindcss'
 
 const App = () => {
   const [showcontact, setshowcontact] = useState(false)
