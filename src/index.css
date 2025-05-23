@@ -388,7 +388,7 @@ text-decoration: none;
   position: fixed;
   inline-size: 200%;
   block-size: 200vh;
-   background-image: url('./public/noise.png');
+   background-image: url('/My-Profile/noise.png');
   opacity: 0.055;
   image-rendering: pixelated;
   pointer-events: none;
