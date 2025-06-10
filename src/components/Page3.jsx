@@ -105,10 +105,10 @@ const Page3 = () => {
         </div>
         <div className="p3col">
           <div className="profilepicture">
-            <img className='prph' src='https://www.dresan.dev/assets/images/skin.webp' />
+            <img className='prph' src='skin.webp' />
             <div className="info">
               <span className='infodetail'>
-                <span className='sdf'>Hello</span>
+                <span className='sdf'>Hello ✋</span>
               </span>
               <span className='infodetail'>
                 <span className='sdf'>My name is Prashant Pal</span>
