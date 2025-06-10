@@ -7,6 +7,9 @@ import Page2 from './components/Page2'
 import Page3 from './components/Page3'
 import Page4 from './components/Page4'
 import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 const App = () => {
@@ -15,6 +18,7 @@ const App = () => {
     
   return (  
     <div className='Union'>
+      
       
       <Navbar showcontact={showcontact} setshowcontact={setshowcontact}/>
       <Home showcontact={showcontact} setshowcontact={setshowcontact}/>
