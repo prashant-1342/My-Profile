@@ -9,15 +9,15 @@ const Page2 = () => {
     <div className="page2">
       <div className="page2title">Featured Projects</div>
       <div className="page2row">
-        <a target='_blank' href='https://pokedex-sigma-azure.vercel.app/' className="page2col">
+        <a target='_blank' href='https://flixdeck.vercel.app' className="page2col">
           <div onMouseOver={() => { setgrayscale(0) }} className="ps1" onMouseOut={() => { setgrayscale(1) }}>
             <figure className='blackwhite'>
-              <img className='thumbnail' src='Untitled design (1).png' />
+              <img className='thumbnail' src='Screenshot 2025-06-10 134729.png' />
             </figure>
           </div>
           <div className="ps2">
-            <div className="ps3">Pokedex</div>
-            <div>Pokemon browsing app</div>
+            <div className="ps3">FlixDeck</div>
+            <div>Movie exploration app</div>
           </div>
         </a >
         <a target='_blank' href='https://pokedex-sigma-azure.vercel.app/'className="page2col">
