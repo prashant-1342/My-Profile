@@ -13,7 +13,7 @@ const Page4 = () => {
     <div className='page4'>
       <div className='page41'>Do you want to start</div>
       <div className='page42'>a project?</div>
-      <div onClick={handlecpy} className="femail">
+      <div onClick={() => { toast("I hope to hear from you soon!") }} className="femail">
         <ToastContainer/>
         <div  className="femail1">prashantpal2024@gmail.com</div>
         <div className="clk">Click to copy</div>
